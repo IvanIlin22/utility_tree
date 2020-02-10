@@ -74,9 +74,12 @@ go run main.go . -f
 	**/*.DS_Store
 	**/.git
 
- 	 Материалы в помощь:
-	https://habrahabr.ru/post/306914/ - пакет io
-	https://golang.org/pkg/sort/
-	https://golang.org/pkg/io/
-	https://golang.org/pkg/io/ioutil/
+ Материалы в помощь:
+ 
+https://habrahabr.ru/post/306914/ - пакет io
 
+https://golang.org/pkg/sort/
+
+https://golang.org/pkg/io/
+
+https://golang.org/pkg/io/ioutil/
