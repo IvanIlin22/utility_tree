@@ -7,19 +7,13 @@
   
   Запускать тесты через `go test -v` находясь в папке c заданием. После запуска вы должны увидеть такой результат:
 
-$ go test -v
-
-=== RUN   TestTreeFull
-
---- PASS: TestTreeFull (0.00s)
-
-=== RUN   TestTreeDir
-
---- PASS: TestTreeDir (0.00s)
-
-PASS
-
-ok      coursera/homework/tree     0.127s
+	$ go test -v
+	=== RUN   TestTreeFull
+	--- PASS: TestTreeFull (0.00s)
+	=== RUN   TestTreeDir
+	--- PASS: TestTreeDir (0.00s)
+	PASS
+	ok      coursera/homework/tree     0.127s
 
 
 go run main.go . -f
@@ -77,17 +71,12 @@ go run main.go . -f
 
 На MacOS может быть проблема с системным файлом `.DS_Store` - его можно просто игнорировать в самой программе, или же настроить dockerignore:
 
-**/*.DS_Store
+	**/*.DS_Store
+	**/.git
 
-**/.git
-
-  Материалы в помощь:
-  
-https://habrahabr.ru/post/306914/ - пакет io
-
-https://golang.org/pkg/sort/
-
-https://golang.org/pkg/io/
-
-https://golang.org/pkg/io/ioutil/
+ 	 Материалы в помощь:
+	https://habrahabr.ru/post/306914/ - пакет io
+	https://golang.org/pkg/sort/
+	https://golang.org/pkg/io/
+	https://golang.org/pkg/io/ioutil/
 
